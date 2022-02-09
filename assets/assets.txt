@@ -1,6 +1,6 @@
 d:assets:assets:0:application/unknown:1
-t:atlas.atlas:atlas-33a10d53f0d1264c2b357277824efa93.atlas:260:application/unknown:1
-i:atlas.png:atlas-a830b1876d7ae7768be8cca24091bad9.png:599:image/png:1
+t:atlas.atlas:atlas-30a5bd96d85c45c12e7910c3a825a50b.atlas:358:application/unknown:1
+i:atlas.png:atlas-fb1c162b6789cd00bc6f97386d168843.png:877:image/png:1
 t:com/badlogic/gdx/graphics/g3d/particles/particles.fragment.glsl:particles.fragment-b90524761fdf09b0a836056d590c30b8.glsl:820:application/unknown:1
 t:com/badlogic/gdx/graphics/g3d/particles/particles.vertex.glsl:particles.vertex-f25b8b2fae10b9bfa09bfdd484923148.glsl:2886:application/unknown:1
 t:com/badlogic/gdx/graphics/g3d/shaders/default.fragment.glsl:default.fragment-e1c018bd48044c8b67c7bbc53145e540.glsl:5874:application/unknown:1
