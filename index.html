@@ -1,31 +1,888 @@
 <!doctype html>
-<html>
-       <head>
-              <title>bioland</title>
-              <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-              <meta id="gameViewport" name="viewport" content="width=device-width initial-scale=1">
-              <link href="styles.css" rel="stylesheet" type="text/css">
-       </head>
 
-       <body>
-              <a class="superdev" href="javascript:%7B%20window.__gwt_bookmarklet_params%20%3D%20%7B'server_url'%3A'http%3A%2F%2Flocalhost%3A9876%2F'%7D%3B%20var%20s%20%3D%20document.createElement('script')%3B%20s.src%20%3D%20'http%3A%2F%2Flocalhost%3A9876%2Fdev_mode_on.js'%3B%20void(document.getElementsByTagName('head')%5B0%5D.appendChild(s))%3B%7D">&#8635;</a>
-              <div align="center" id="embed-html"></div>
-              <script type="text/javascript" src="html/html.nocache.js"></script>
-       </body>
 
-       <script>
-              function handleMouseDown(evt) {
-                evt.preventDefault();
-                evt.stopPropagation();
-                window.focus();
-              }
+<html lang="pt-br" class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<title>Eco | Novos tempos, novas maneiras</title>
+		<meta name="author" content="José Zay">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
 
-              function handleMouseUp(evt) {
-                evt.preventDefault();
-                evt.stopPropagation();
-              }
-              document.addEventListener('contextmenu', event => event.preventDefault());
-              document.getElementById('embed-html').addEventListener('mousedown', handleMouseDown, false);
-              document.getElementById('embed-html').addEventListener('mouseup', handleMouseUp, false);
-       </script>
+		<!-- Mobile Specific Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!--styles -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/font-awesome.css" rel="stylesheet">
+		<link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+		<link href="js/owl-carousel/owl.theme.css" rel="stylesheet">
+		<link href="js/owl-carousel/owl.transitions.css" rel="stylesheet">
+		<link href="css/magnific-popup.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/animate.css" />
+		<link rel="stylesheet" href="css/etlinefont.css">
+		<link href="css/style.css" type="text/css"  rel="stylesheet"/>
+
+		<!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
+			<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+			<script src="js/respond.min.js"></script>
+			<![endif]-->
+	</head>
+	<body data-spy="scroll" data-target="#main-menu">
+
+	<!--Start Page loader -->
+		<div id="pageloader">
+			<div class="loader">
+				<img src="images/progress.gif" alt='loader' />
+			</div>
+		</div>
+   <!--End Page loader -->
+
+
+   <!--Start Navigation-->
+		<header id="header">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu">
+								<span class="sr-only">Mudar visualização</span>
+								<span class="fa fa-bars"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+                            <!--Start Logo -->
+							<div class="logo-nav">
+								<a href="index.html">
+									<img src="images/logo.png" alt="Company logo" style="width:50px" />
+								</a>
+							</div>
+                            <!--End Logo -->
+							<div class="clear-toggle"></div>
+							<div id="main-menu" class="collapse scroll navbar-right">
+								<ul class="nav">
+
+									<li class="active"> <a href="#home">Home</a> </li>
+
+									<li> <a href="#about">Sobre</a> </li>
+
+                                    <li> <a href="#facts">Estatísticas</a> </li>
+                                    <li> <a href="#history">Roadmap</a> </li>
+
+                                     <li> <a href="#team">Time</a> </li>
+
+								    <li> <a href="#skills">Metas</a> </li>
+
+									<li> <a href="#why-choose">FAQ</a></li>
+
+                                    <li> <a href="#blog">White Papers</a></li>
+                                    <li> <a href="#testimonials">Testemunhos</a></li>
+
+									<li> <a href="#contact">Contato</a> </li>
+
+								</ul>
+							</div><!-- end main-menu -->
+						</div>
+					</div>
+				</div>
+			</header>
+    <!--End Navigation-->
+
+
+        <!-- Start Slider  -->
+        <section id="home" class="home">
+             <div class="slider-overlay"></div>
+            <div class="flexslider">
+                <ul class="slides scroll">
+                    <li class="first">
+                        <div class="slider-text-wrapper">
+                            <div class="container">
+                                <div class="big">Startup Ecological Fuel</div>
+                                <div class="small">Plantar - Produzir - Lucrar</div>
+                                <div style="font-size: 11">Do metaverso para o mundo.</div>
+                                <a href="game/index.html" class="middle btn btn-white">JOGUE AGORA</a>
+                            </div>
+                        </div>
+                        <img src="images/cana_acucar.jpg" alt="">
+                    </li>
+
+                   
+                </ul>
+            </div>
+        </section>
+          <!-- End Slider  -->
+
+
+  <!--Start Features-->
+  <section  id="about" class="section">
+       <div class="container">
+           <div class="row">
+
+              <!-- Features Icon-->
+              <div class="col-md-4">
+                  <div class="features-icon-box">
+
+                      <div class="features-icon">
+                      <i class="fa fa-leaf"></i>
+                      </div>
+
+                      <div class="features-info">
+                         <h4>Foco no meio ambiente</h4>
+                         <p>Tecnologia e experiência na produção de biocombustíveis melhorados quimicamente, aumentando a economia e reduzindo a emissão de poluentes em motores a combustão.</p>
+                      </div>
+                  </div>
+              </div>
+
+               <!-- Features Icon-->
+              <div class="col-md-4">
+                  <div class="features-icon-box">
+
+                      <div class="features-icon">
+                      <i class="fa fa-bitcoin"></i>
+                      </div>
+
+                      <div class="features-info">
+                         <h4>Tecnologia a favor</h4>
+                         <p>Utilização da tecnologia BlockChain para comercialização de ativos do setor de biocombustíveis, bem como inclusão da cadeia produtiva no metaverso.</p>
+                      </div>
+                  </div>
+              </div>
+
+               <!-- Features Icon-->
+              <div class="col-md-4">
+                  <div class="features-icon-box">
+
+                      <div class="features-icon">
+                     <i class="fa fa-life-saver"></i>
+                      </div>
+
+                      <div class="features-info">
+                         <h4>Experiência</h4>
+                         <p>Equipe formada por profissionais capacitados e com anos de experiência na produção de etanol, com patentes registradas em técnicas inovadoras no ramo.</p>
+                      </div>
+                  </div>
+              </div>
+
+               <!-- Features Icon-->
+              <div class="col-md-4">
+                  <div class="features-icon-box">
+
+                      <div class="features-icon">
+                      <i class="fa fa-gamepad"></i>
+                      </div>
+
+                      <div class="features-info">
+                         <h4>Produzindo no metaverso</h4>
+                         <p>Oferta de uma experiência de produção de biocombustíveis inserida no metaverso, representando uma participação da produção no mundo real, gamificando o investimento e mudando paradigmas.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Features Icon-->
+              <div class="col-md-4">
+                  <div class="features-icon-box">
+
+                      <div class="features-icon">
+                     <i class="fa fa-line-chart"></i>
+                      </div>
+
+                      <div class="features-info">
+                         <h4>Economia sustentável</h4>
+                         <p>Com um tokem hiperdeflacinário e aplicação sólida na economia mundial, o projeto já nasceu predestinado ao crescimento. Com uma filosofia 'anti-baleia' queremos antes de tudo, acesso a todos e estabilidade.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Features Icon-->
+              <div class="col-md-4">
+                  <div class="features-icon-box">
+
+                      <div class="features-icon">
+                      <i class="fa fa-money"></i>
+                      </div>
+
+                      <div class="features-info">
+                         <h4>Lucrativo</h4>
+                         <p>Os ativos lastreados em uma cadeia produtiva real, tokenizam o investimento na produção de biocombustíveis sem burocracia e impostos excessivos, beneficiando desde o holder ao jogador.</p>
+                      </div>
+                  </div>
+              </div>
+
+
+           </div> <!-- /.row-->
+       </div> <!-- /.container-->
+  </section>
+  <!--End Features-->
+
+
+  <!-- Start Facts-->
+  <section id="facts" class="section parallax">
+    <div class="overlay"></div>
+       <div class="container">
+           <div class="row">
+
+                <!-- Start Item-->
+                <div class="col-md-3 col-sm-6 facts-box margin-bottom-30">
+                    <span><i class="icon-happy"></i></span>
+                    <h3>841034</h3>
+                    <span>Holders</span>
+                </div>
+                <!-- End Item-->
+
+                 <!-- Start Item-->
+                <div class="col-md-3 col-sm-6 facts-box margin-bottom-30">
+                 <span><i class="icon-presentation"></i></span>
+                    <h3>$0,00003</h3>
+                    <span>Precificação</span>
+                </div>
+                <!-- End Item-->
+
+                 <!-- Start Item-->
+                <div class="col-md-3 col-sm-6 facts-box margin-bottom-30">
+                 <span><i class="icon-attachment"></i></span>
+                    <h3>2345</h3>
+                    <span>Trades / dia</span>
+                </div>
+                <!-- End Item-->
+
+                 <!-- Start Item-->
+                <div class="col-md-3 col-sm-6 facts-box margin-bottom-30">
+                 <span><i class="icon-bargraph"></i></span>
+                    <h3>$304.234.234,00</h3>
+                    <span>TVL</span>
+                </div>
+                <!-- End Item-->
+
+             </div> <!-- /.row -->
+       </div> <!-- /.container -->
+  </section>
+  <!--End Facts-->
+
+
+     <!--Start History-->
+    <section id="history" class="section parallax">
+		<div class="overlay"></div>
+            <div class="container">
+
+                 <div class="title-box text-center white">
+                    <h2 class="title">Roadmap</h2>
+                 </div>
+
+                     <!-- History Timeline -->
+                    <ul class="timeline list-unstyled">
+
+                        <li class="year">2022</li>
+
+                        <!--History Item -->
+                        <li class="timeline-item">
+                            <h4>Início das vendas dos ativos do game.</h4>
+                            <p>Será iniciada a venda dos ativos e tokens relacionadas ao jogo através da venda privada.</p>
+                            <span> 16 JUN 2022</span>
+                        </li>
+                        <!-- End Item -->
+
+                        <!--History Item -->
+                        <li class="timeline-item">
+                            <h4>Lançamento do game na test net.</h4>
+                            <p>Será aberto ao público uma versão preliminar e de testes do jogo.</p>
+                            <span> 18 OUT 2022</span>
+                        </li>
+                        <!-- End Item -->
+
+                        <!-- History Year -->
+                        <li class="year">2023</li>
+
+
+                        <!--History Item -->
+                        <li class="timeline-item">
+                            <h4>Lançamento do game.</h4>
+                            <p>Será lançada a versão oficial do game.</p>
+                            <span> 10 JAN 2023</span>
+                        </li>
+                        <!-- End Item -->
+
+                        <!--History Item -->
+                        <li class="timeline-item">
+                            <h4>Início da produção dos biocombustíveis.</h4>
+                            <p>Com a primeira usina montada, e recursos prontos para aumentar a produção em escala, será dado o primeiro pontapé para a maior revolução na comercialização de bio combustíveis.</p>
+                            <span> 11 OUT 2023</span>
+                        </li>
+                        <!-- End Item -->
+
+                         <!--History Item -->
+                        <li class="timeline-item">
+                            <h4>Lançamento nas principais exchanges do país e do mundo.</h4>
+                            <p>Os tokens serão inscritos nas plataformas de comercialização de criptomoedas mais populares.</p>
+                            <span> 18 OUT 2023</span>
+                        </li>
+                        <!-- End Item -->
+
+                         <li class="clear"></li>
+
+                        <li class="end-icon fa fa-bookmark"></li>
+                    </ul>
+                   <!-- End History Timeline -->
+
+           </div> <!--/.container-->
+	</section>
+   <!--End History-->
+
+   <!--Start Call To Action-->
+   <section id="cta" class="parallax">
+       <div class="overlay"></div>
+         <div class="container">
+             <div class="row text-center">
+                 <h2>Está preparado para ser o próximo milionário do brasil?</h2>
+                 <a href="#" class="btn btn-green">Invista Conosco</a>
+           </div>
+         </div>
+   </section>
+   <!--End Call To Action-->
+
+
+
+  <!--Start Team-->
+  <section id="team" class="section">
+		<div class="container">
+            <div class="row">
+
+             <div class="title-box text-center">
+                <h2 class="title">Time</h2>
+             </div>
+
+             </div>
+
+                <!-- Team -->
+				<div class="team-items team-carousel">
+                      <!-- Team Member #1 -->
+                      <div class="item">
+                          <img src="images/team/team1.jpg" alt=""  />
+                          <h4>Mariana</h4>
+                          <h5>Designer</h5>
+                          <p>Nasci lá na cidade me casei na serra, com a minha Mariana moça lá de fora.</p>
+
+                          <div class="socials">
+                              <ul>
+                               <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                               <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                               <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                               <li><a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                      <!-- End Member -->
+
+                      <!-- Team Member #2 -->
+                      <div class="item">
+                          <img src="images/team/team2.jpg" alt=""  />
+                          <h4>Juliana</h4>
+                          <h5>Web Designer</h5>
+                          <p>O Juliana, desce uma caixa de cerveja que eu bebo, que eu bebo.</p>
+
+                          <div class="socials">
+                              <ul>
+                               <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                               <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                               <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                               <li><a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                      <!-- End Member -->
+
+                      <!-- Team Member #3 -->
+                      <div class="item">
+                          <img src="images/team/team3.jpg" alt=""  />
+                          <h4>Bastião</h4>
+                          <h5>CEO</h5>
+                          <p>Formado em Química pela University of Cincinnati, mestrado em Engenharia Genética Yale College, doutorado em Bioenergia moderna pela Harvard e tecnologo em chapeação e pintura pelo SENAC </p>
+
+                          <div class="socials">
+                              <ul>
+                               <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                               <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                               <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                               <li><a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                      <!-- End Member -->
+
+                       <!-- Team Member #4 -->
+                      <div class="item">
+                          <img src="images/team/team4.jpg" alt=""  />
+                          <h4>Mano Garcia</h4>
+                          <h5>Game Designer</h5>
+                          <p>Se não boleio a perna, me resbalo da garupa e saio junto contigo. </p>
+
+                          <div class="socials">
+                              <ul>
+                               <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                               <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                               <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                               <li><a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                      <!-- End Member -->
+
+                       <!-- Team Member #5 -->
+                      <div class="item">
+                          <img src="images/team/team1.jpg" alt=""  />
+                          <h4>Marco</h4>
+                          <h5>Cortadora de Cana</h5>
+                          <p>Não há sol que mostre mais de um homem, que aquele que pro homem se mostra. </p>
+
+                          <div class="socials">
+                              <ul>
+                               <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                               <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                               <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                               <li><a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                      <!-- End Member -->
+
+                       <!-- Team Member #6 -->
+                      <div class="item">
+                          <img src="images/team/team2.jpg" alt=""  />
+                          <h4>Flábiara</h4>
+                          <h5>Degustadora de biocombustiveis</h5>
+                          <p>Como conciliar uma dieta saudável com a vontade de beber todo dia? </p>
+
+                          <div class="socials">
+                              <ul>
+                               <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                               <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                               <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                               <li><a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                      <!-- End Member -->
+				</div>
+                <!-- End Team -->
+			</div>
+            <!-- End Content -->
+	</section>
+  <!--End Team-->
+
+
+    <!--Start Skills-->
+  <section  id="skills" class="section parallax">
+       <div class="overlay"></div>
+       <div class="container">
+           <div class="row">
+
+             <div class="title-box text-center white">
+                <h2 class="title">Metas atingidas</h2>
+             </div>
+
+                 <!--Skill #1-->
+                <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+                    <span class="pie-chart " data-percent="17">
+                        <span class="percent"></span>
+                    </span>
+                    <h4>Produção do game</h4>
+                    <p>Estágio de estudos, e construção de protótipos.</p>
+                </div>
+
+                <!--Skill #2-->
+                <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+                    <span class="pie-chart" data-percent="75">
+                        <span class="percent"></span>
+                    </span>
+                    <h4>Token</h4>
+                    <p>Fase de distribuição por vendas e airdrops.</p>
+                </div>
+
+                <!--Skill #3-->
+                <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+                    <span class="pie-chart " data-percent="60">
+                        <span class="percent"></span>
+                    </span>
+                    <h4>Construção da primeira usina</h4>
+                    <p>80% dos equipamentos para a primeira usina.</p>
+                </div>
+
+                <!--Skill #4-->
+                <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+                    <span class="pie-chart" data-percent="5">
+                        <span class="percent"></span>
+                    </span>
+                    <h4>Abertura da Empresa</h4>
+                    <p>Processo de legalização e constituição de sociedade.</p>
+                </div>
+
+
+           </div> <!-- /.row-->
+       </div> <!-- /.container-->
+  </section>
+  <!--End Skills-->
+
+
+     <!--Start Why Choose us-->
+  <section id="why-choose" class="section">
+       <div class="container">
+           <div class="row">
+
+                 <div class="title-box text-center">
+                    <h2 class="title">FAQ</h2>
+                 </div>
+
+              <!--start tabs-->
+              <div class="col-md-6">
+                  <div class="tabs tabs-main">
+					<ul class="nav nav-tabs">
+					  <li class="active"><a href="#one" data-toggle="tab">Game</a></li>
+					  <li><a href="#two" data-toggle="tab">Empresa</a></li>
+					  <li><a href="#three" data-toggle="tab">Token</a></li>
+					</ul>
+					<div class="tab-content">
+
+						<!--Start Tab Item #1 -->
+						<div class="tab-pane in active" id="one">
+							<p>
+								O jogo é algo impressionante, foi projetado para ter um design clássico e agradável, que mantenha você distraído enquando nos dá seu dinheiro. e estou enrolando aqui.
+							</p>
+						</div>
+						<!-- End Tab -->
+
+						<!--Start Tab Item #2 -->
+						<div class="tab-pane" id="two">
+							<p>
+								Estamos dando nosso melhor, a empresa funciona assim assado, para reduzir impostos dessa forma e etc. estou enrolando aqui.
+							</p>
+						</div>
+						<!-- End Tab -->
+
+						<!--Start Tab Item #3 -->
+						<div class="tab-pane" id="three">
+							<p>
+								O token é hiperdeflacionário e possui implementada para isso uma Locked Pool. Este será utilizado como moeda para as transações do game e da compra e venda de ativos biocombustíveis. E estou enronando aqui.
+							</p>
+						</div>
+						<!-- End Tab -->
+
+					</div>
+				</div>
+              </div>
+             <!-- End Tabs-->
+
+            <!--Start Accordion-->
+            <div class="col-md-6">
+               <div class="panel-group accordion-main" id="accordion">
+                       <!--About accordion #1-->
+				       <div class="panel">
+                           <div class="panel-heading collapsed" data-toggle="collapse"
+                            data-parent="#accordion" data-target="#collapseOne">
+                          <h6 class="panel-title accordion-toggle">
+                              Quando o Token lança na Binance?
+                          </h6>
+                        </div>
+					<div id="collapseOne" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>Ajude-nos a divulgar, a gerar movimentação, que consiguiremos assim o apoio necessário para tanto, não irá adiantar ficar inundando o telegram de perguntas do tipo.
+                            </p>
+
+                        </div>
+					</div>
+				  </div>
+
+                  <!--About accordion #2-->
+				  <div class="panel">
+                       <div class="panel-heading collapsed" data-toggle="collapse"
+                        data-parent="#accordion" data-target="#collapseTwo">
+                      <h6 class="panel-title accordion-toggle">
+                          Como conseguirei comprar os combustíveis?
+                      </h6>
+                       </div>
+					<div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>Você deverá proceder da forma tal, e com a quantidade suficiente de tokens adquirir tal ativo.
+                            </p>
+                        </div>
+					</div>
+				  </div>
+
+                 <!--About accordion #3-->
+				  <div class="panel">
+                      <div class="panel-heading collapsed" data-toggle="collapse"
+                            data-parent="#accordion" data-target="#collapseThree">
+                          <h6 class="panel-title accordion-toggle">
+                              O token está caindo muito, e agora?
+                          </h6>
+                        </div>
+					<div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>Oscilações de mercado são comuns, e deverá se abituar à força.
+                            </p>
+
+                        </div>
+					</div>
+				  </div>
+
+                <!--About accordion #4-->
+				 <div class="panel">
+                     <div class="panel-heading collapsed" data-toggle="collapse"
+                            data-parent="#accordion" data-target="#collapseFour">
+                          <h6 class="panel-title accordion-toggle">
+                              Quantas contas eu posso ter.
+                          </h6>
+                        </div>
+					<div id="collapseFour" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>Não somos contra multi contas.
+                            </p>
+                        </div>
+					</div>
+				  </div>
+				</div>
+            </div>
+            <!--End Accordion-->
+
+           </div> <!--/.row-->
+       </div> <!--/.container-->
+  </section>
+  <!--End Why Choose us-->
+
+
+    <!--Start video-->
+  <section id="video" class="section parallax">
+        <div class="overlay"></div>
+       <div class="container">
+           <div class="row">
+
+                 <div class="title-box text-center white">
+                    <h2 class="title">Video</h2>
+                 </div>
+
+             <div class="col-md-6">
+                 <div class="video-caption-main">
+                      <!--Video caption #1-->
+                      <div class="video-caption">
+                          <div class="video-icon">
+                              <i class="fa fa-briefcase"></i>
+                          </div>
+                          <div class="video-caption-info">
+                              <h4>Assista ao vídeo explicativo do nosso projeto.</h4>
+                              <p>A produção de biocombustíveis no Brasil é burocrático e pouco rentável, veja como contornamos isso.</p>
+                          </div>
+                      </div>
+
+                       <!--Video caption #2-->
+                      <div class="video-caption">
+                          <div class="video-icon">
+                              <i class="fa fa-glass"></i>
+                          </div>
+                          <div class="video-caption-info">
+                              <h4>Lucro incessante</h4>
+                              <p>O modelo de negócio que propomos busca extrair o máximo do lucro possível. E tudo isso para você.</p>
+                          </div>
+                      </div>
+
+                      <!--Video caption #3-->
+                      <div class="video-caption">
+                          <div class="video-icon">
+                              <i class="fa fa-rocket "></i>
+                          </div>
+                          <div class="video-caption-info">
+                              <h4>Veja como é nosso trabalho</h4>
+                              <p>A produção do biocombustível é feita com a melhor perícia e técnica que podem encontrar.</p>
+                          </div>
+                      </div>
+
+                 </div>
+             </div>
+            <!-- End Video caption-->
+
+            <div class="col-md-6">
+                <div class="play-video">
+                  <iframe src="http://player.vimeo.com/video/115919099?title=0&amp;byline=0&amp;portrait=0&amp;color=fff" allowfullscreen></iframe>
+                </div>
+            </div>
+
+           </div> <!-- /.row-->
+       </div> <!-- /.container-->
+  </section>
+  <!--End video-->
+
+
+   <!-- Start blog-->
+   <section id="blog" class="section">
+       <div class="container">
+           <div class="row">
+
+                 <div class="title-box text-center">
+                    <h2 class="title">White Papers</h2>
+                 </div>
+
+               <!-- Start Blog item #1-->
+               <div class="col-md-4">
+                   <div class="blog-post">
+                         <div class="post-media">
+							 <img src="images/bioland.png" alt="">
+                         </div>
+                       <div class="post-desc">
+                           <h4>White Paper - BioLands</h4>
+                           <h5>12 May, 2022</h5>
+                           <p>Veja em detalhes o funcionamento do nosso metaverso.</p>
+                            <a href="#" class="btn btn-gray-border">Saiba mais</a>
+                       </div>
+                   </div>
+               </div>
+
+               <!-- Start Blog item #2-->
+               <div class="col-md-4">
+                   <div class="blog-post">
+                         <div class="post-media">
+							 <img src="images/usina.jpg" alt="">
+                         </div>
+                       <div class="post-desc">
+                           <h4>White Paper - Ecological Fuel</h4>
+                            <h5>12 May, 2022</h5>
+                           <p>Veja os detalhes do funcionamento da nossa Startup.</p>
+                            <a href="#" class="btn btn-gray-border">Saiba Mais</a>
+                       </div>
+                   </div>
+               </div>
+           </div> <!--/.row-->
+       </div> <!--/.container-->
+   </section>
+   <!-- End blog-->
+
+
+  <!--Start Testimonial-->
+  <section id="testimonials" class="section parallax">
+     <div class="overlay"></div>
+        <div class="container">
+              <div class="row">
+
+                  	<div class="title-box text-center white">
+                        <h2 class="title">O que dizem os clientes.</h2>
+                     </div>
+
+
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="testimonials-carousel">
+                            <!--Start Testimonial item #1-->
+                            <div class="items">
+                                <div class="desc">Pode ser que o seu propósito na vida seja servir de aviso para os outros.</div>
+                                <img src="images/testimonial/testimonial-img1.jpg" class="testimonial-pic" alt="testimonials" />
+                                <div class="name">Malilhardo</div>
+                            </div>
+
+                              <!--Start Testimonial item #2-->
+                            <div class="items">
+                                <div class="desc">Algumas pessoas nascem perdedoras, outras precisam aprender da maneira mais difícil.</div>
+                                <img src="images/testimonial/testimonial-img2.jpg" class="testimonial-pic" alt="testimonials" />
+                                <div class="name">Leitilda</div>
+                            </div>
+
+                              <!--Start Testimonial item #3-->
+                            <div class="items">
+                                <div class="desc">Se você nunca tentar nada novo, perderá muitas das grandes decepções da vida.</div>
+                                <img src="images/testimonial/testimonial-img1.jpg" class="testimonial-pic" alt="testimonials" />
+                                <div class="name">Mantolete</div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!--/.row-->
+            </div> <!--/.container-->
+          </section>
+        <!--Start Testimonial-->
+
+   <!--Start Contact-->
+   <section id="contact" class="section parallax">
+      <div class="overlay"></div>
+       <div class="container">
+           <div class="row">
+
+                 <div class="title-box text-center white">
+                    <h2 class="title">Contato</h2>
+                 </div>
+             </div>
+
+               <!--Start contact form-->
+               <div class="col-md-8 col-md-offset-2 contact-form">
+
+                    <div class="contact-info text-center">
+                       <p>+55 (42) 4002-8922</p>
+                       <p>Rua André Mascalhães, 349, Fortaleza - AC </p>
+                       <p>comercial@ecofuel.com </p>
+                    </div>
+
+                     <form method="post">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <input class="form-control" id="name" placeholder="Nome Completo" type="text">
+                            </div>
+                            <div class="col-md-4">
+                                <input class="form-control" id="email" placeholder="Seu E-Mail" type="email">
+                            </div>
+                            <div class="col-md-4">
+                                <input class="form-control" id="subject" placeholder="Assunto" type="text">
+                            </div>
+                            <div class="col-md-12">
+                                <textarea class="form-control" id="message" rows="7" placeholder="Mensagem"></textarea>
+                            </div>
+                            <div class="col-md-12 text-right">
+                                <button type="submit" class="btn btn-green">ENVIAR MENSAGEM</button>
+                            </div>
+                        </div>
+                    </form>
+               </div>
+              <!--End contact form-->
+
+       </div> <!-- /.container-->
+   </section>
+   <!--End Contact-->
+
+
+   <!--Start Footer-->
+   <footer>
+       <div class="container">
+           <div class="row">
+               <!--Start copyright-->
+               <div class="col-md-6 col-sm-6 col-xs-6">
+                   <div class="copyright"><p>Copyright © 2022 Todos os direitos reservados. </a>
+                 </p></div>
+               </div>
+               <!--End copyright-->
+
+               <!--start social icons-->
+               <div class="col-md-6 col-sm-6 col-xs-6">
+                   <div class="social-icons">
+                       <ul>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                       </ul>
+                    </div>
+               </div>
+               <!--End social icons-->
+           </div> <!-- /.row-->
+       </div> <!-- /.container-->
+   </footer>
+   <!--End Footer-->
+
+   <a href="#" class="scrollup"> <i class="fa fa-chevron-up"> </i> </a>
+
+    <!--Plugins-->
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript" src="js/jquery.easypiechart.js"></script>
+    <script type="text/javascript" src="js/jquery.appear.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+
+ </body>
 </html>
+
